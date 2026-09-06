@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <header class="bg-navy py-8 text-white">
+    <div class="mx-auto w-[min(1120px,calc(100%-2rem))]">
+      <p class="m-0 text-[0.9rem] text-[#b9c6d3]"><a class="text-[#d7e6f3]" href="/">Home</a> <span aria-hidden="true">›</span> {{ title }}</p>
+      <h1 class="mt-1 mb-0 font-serif text-[clamp(1.8rem,3vw,2.5rem)]">{{ title }}</h1>
+    </div>
+  </header>
+  <div class="prose mx-auto w-[min(48rem,calc(100%-2rem))] py-8 pb-14 prose-headings:font-serif prose-headings:text-navy prose-a:text-brand-deep hover:prose-a:text-brand prose-img:my-0">
+    {{ content | safe }}
+    {% if youtube %}
+      {% youtube youtube %}
+    {% endif %}
+    {% if youtubes %}
+      {% for id in youtubes %}
+        {% youtube id %}
+      {% endfor %}
+    {% endif %}
+    {% if showContact != false %}
+    <p class="flex flex-wrap gap-3 not-prose mt-7">
+      <a class="btn" href="/contact/">Contact Us</a>
+      <a class="btn-ghost" href="{{ site.phoneHref }}">Call {{ site.phone }}</a>
+    </p>
+    {% endif %}
+  </div>
+</article>

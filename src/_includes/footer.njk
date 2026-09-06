@@ -1,0 +1,26 @@
+<footer class="bg-navy px-0 pt-10 pb-6 text-[#c9d4de]">
+  <div class="mx-auto grid w-[min(1120px,calc(100%-2rem))] grid-cols-1 gap-6 md:grid-cols-3">
+    <div>
+      <p class="mb-1.5 font-bold text-white">{{ site.legalName }}</p>
+      <p class="m-0 mb-1.5">{{ site.street }}<br>{{ site.city }}</p>
+      <p class="m-0 mb-1.5"><a class="text-[#d7e8f5]" href="{{ site.phoneHref }}">{{ site.phone }}</a><br>
+      <a class="text-[#d7e8f5]" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
+    <div>
+      <p class="mb-1.5 font-bold text-white">Hours</p>
+      {% for line in site.hoursLines %}
+      <p class="m-0 mb-1.5">{{ line }}</p>
+      {% endfor %}
+    </div>
+    <div>
+      <p class="mb-1.5 font-bold text-white">Design services</p>
+      <p class="m-0 mb-1.5"><a class="text-[#d7e8f5]" href="/home-design/">Home Design Services</a><br>
+      <a class="text-[#d7e8f5]" href="/house-plans/">House Plans</a><br>
+      <a class="text-[#d7e8f5]" href="/copy-service/">Blueprint Copy Service</a><br>
+      <a class="text-[#d7e8f5]" href="/contact/">Request a free quote</a></p>
+    </div>
+  </div>
+  <div class="mx-auto mt-6 w-[min(1120px,calc(100%-2rem))] border-t border-white/10 pt-4 text-[0.9rem]">
+    <p class="m-0">&copy; 2026 {{ site.name }}</p>
+  </div>
+</footer>

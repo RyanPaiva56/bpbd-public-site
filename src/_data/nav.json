@@ -1,0 +1,32 @@
+[
+  { "label": "Home", "url": "/" },
+  {
+    "label": "Home Design Services",
+    "url": "/home-design/",
+    "children": [
+      { "label": "As-Built Construction Plans", "url": "/built-construction/" },
+      { "label": "Boat Dock Plans and Boat House Plans", "url": "/boat-docks-boat-houses-designs/" },
+      { "label": "Barn Plans", "url": "/barns/" },
+      { "label": "Deck Plans", "url": "/decks/" },
+      { "label": "Drafting Services in DeLand", "url": "/home-design/drafting-services-in-deland/" },
+      { "label": "Duplex and Townhouse Plans", "url": "/duplex-townhouse/" },
+      { "label": "Garage Addition Plans", "url": "/detached-garage-additions/" },
+      { "label": "Home Addition Plans", "url": "/home-addition-designs/" },
+      { "label": "House Plans", "url": "/house-plans/" },
+      { "label": "Home Remodeling Plans", "url": "/home-remodeling-designs/" },
+      { "label": "Pavilions and Gazebo Plans", "url": "/pavilions-gazebos/" },
+      { "label": "Pool House and Guest House Plans", "url": "/pool-house-guest-house/" }
+    ]
+  },
+  {
+    "label": "Home Design Videos",
+    "url": "/home-design-videos/",
+    "children": [
+      { "label": "A New Old Florida Style Home", "url": "/home-design-videos/a-new-old-florida-style-home/" },
+      { "label": "House Plans Virtual Walkthrough", "url": "/home-design-videos/house-plans-virtual-walkthrough/" }
+    ]
+  },
+  { "label": "Blueprint Copy Service", "url": "/copy-service/" },
+  { "label": "Reviews and Recommendations", "url": "/reviews/" },
+  { "label": "Contact Us", "url": "/contact/" }
+]

@@ -1,0 +1,29 @@
+---
+title: Reviews and Recommendations
+layout: layouts/page.njk
+permalink: /reviews/
+showContact: false
+description: Client reviews and recommendations for Blueprints By Design in DeLand, Florida.
+---
+<p>It’s easy for a business to brag about themselves. Our clients reviews and comments speak for us. Also, West Volusia Realty Association 2014 Parade Of Homes Awards speak for us. We thank each and every one of our clients for choosing us to design their projects and are most grateful for their recommendations. It is a privilege to help design someone’s home. Just think, home is where the heart is, where your family is, where most of your life happens, that’s a privilege.</p>
+
+<p>We have the formula for having satisfied clients; it’s so simple, yet so true: Professionally, give the client what they want. There is almost 100% guarantee of satisfaction. You can see the signed original recommendation documents from all of our clients in our office.</p>
+
+<p class="not-prose"><a class="btn" href="/assets/pdf/reviews.pdf">Reviews and Recommendations [PDF]</a></p>
+
+<p>Here are some of the reviews and comments of our clients. We again thank them.</p>
+
+<p>If you’d like to view more reviews, please check out our <a href="{{ site.googleReviews }}" rel="noopener noreferrer">Google Reviews</a> page.</p>
+
+<div class="not-prose grid gap-4">
+{% for review in reviews %}
+  <blockquote class="bg-white p-4 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)]">
+    <div class="flex justify-between gap-4 text-[0.92rem] text-muted">
+      <span class="font-bold text-gold">{{ review.score }}/10</span>
+      <span>{{ review.name }} ({{ review.date }})</span>
+    </div>
+    <p class="mt-2 mb-0">Would you recommend us? “{{ review.recommend }}”</p>
+    {% if review.quote %}<q class="mt-1.5 block">{{ review.quote }}</q>{% endif %}
+  </blockquote>
+{% endfor %}
+</div>

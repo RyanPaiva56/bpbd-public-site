@@ -1,0 +1,37 @@
+---
+title: Contact
+layout: layouts/page.njk
+permalink: /contact/
+showContact: false
+description: Visit Blueprints By Design in DeLand or call 386-734-0787 for a free quote.
+---
+<div class="not-prose grid grid-cols-1 gap-8 md:grid-cols-2">
+  <div>
+    <figure class="mb-4 max-w-80">
+      <img class="h-auto w-full" src="/assets/images/location.jpg" alt="Blueprints By Design office location" width="500" height="335">
+    </figure>
+    <p class="mb-4 leading-relaxed">You can visit us anytime Monday through Thursday, 7:30 AM to 3:30 PM Closed 11:00 AM TO 12:00 at our office location at:</p>
+    <p class="mb-4 leading-relaxed">
+      <strong>Blueprints By Design LLC</strong><br>
+      140 N. Spring Garden Ave. (15A)<br>
+      DeLand, FL 32720
+    </p>
+    <p class="mb-4 leading-relaxed">
+      <strong>Phone:</strong> <a class="text-brand-deep hover:text-brand" href="{{ site.phoneHref }}">{{ site.phone }}</a><br>
+      <strong>Email:</strong> <a class="text-brand-deep hover:text-brand" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </p>
+    <p class="flex flex-wrap gap-3">
+      <a class="btn" href="{{ site.phoneHref }}">Call for a free quote</a>
+      <a class="btn-ghost" href="mailto:{{ site.email }}">Email us</a>
+    </p>
+  </div>
+  <div class="min-h-80">
+    <iframe
+      class="h-full min-h-80 w-full border-0"
+      src="{{ site.mapsEmbed }}"
+      title="Map of Blueprints By Design, 140 N Spring Garden Ave, DeLand, FL"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen></iframe>
+  </div>
+</div>

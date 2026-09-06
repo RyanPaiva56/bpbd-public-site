@@ -1,0 +1,40 @@
+---
+title: Home Design Videos
+layout: layouts/page.njk
+permalink: /home-design-videos/
+showContact: false
+description: Watch videos about designing a home and what to expect as a Blueprints By Design client.
+videos:
+  - title: The Privilege of Designing a Home
+    id: SLnea2ZsWVc
+  - title: "Our Process: What You Can Expect"
+    id: WXKBdtJ7r2w
+  - title: History and Purpose
+    id: TAQfTtu4vMA
+  - title: House Foundations 101
+    id: jORQgwuRSaY
+  - title: House Foundations 102
+    id: kIj2pds6Ax0
+  - title: House Roof Styles 101
+    id: HjvYFrcx4zc
+  - title: Services and Pricing
+    id: 468NZ-RiHig
+  - title: Heating & Air Conditioning 101
+    id: "-paylzH6wgo"
+---
+<p>Watch these quick videos to learn some of the important details about designing a home and what you can expect as a Blueprints By Design client.</p>
+
+<div class="not-prose grid gap-6">
+{% for video in videos %}
+  <section>
+    <h2 class="mb-1.5 font-serif text-xl text-navy">{{ video.title }}</h2>
+    {% youtube video.id %}
+  </section>
+{% endfor %}
+</div>
+
+<p>More videos:</p>
+<ul>
+  <li><a href="/home-design-videos/a-new-old-florida-style-home/">A New Old Florida Style Home</a></li>
+  <li><a href="/home-design-videos/house-plans-virtual-walkthrough/">House Plans Virtual Walkthrough</a></li>
+</ul>

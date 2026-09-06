@@ -1,0 +1,32 @@
+<header class="sticky top-0 z-20 bg-navy shadow-[0_2px_0_rgb(255_255_255_/_0.04)]">
+  <div class="mx-auto flex min-h-[4.5rem] w-[min(1120px,calc(100%-2rem))] items-center justify-between gap-4">
+    <a href="/">
+      <img class="block h-auto w-[168px]" src="/assets/images/logo.png" alt="Blueprints By Design — Proven Design Service" width="200" height="73">
+    </a>
+    <button class="nav-toggle relative h-10 w-10 border border-white/25 bg-transparent md:hidden" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Menu</span>
+      <span class="absolute left-2.5 top-[1.15rem] block h-0.5 w-[1.15rem] bg-white before:absolute before:-top-1.5 before:left-0 before:block before:h-0.5 before:w-[1.15rem] before:bg-white before:content-[''] after:absolute after:top-1.5 after:left-0 after:block after:h-0.5 after:w-[1.15rem] after:bg-white after:content-['']"></span>
+    </button>
+    <nav id="site-nav" class="hidden md:flex max-md:absolute max-md:inset-x-0 max-md:top-full max-md:bg-navy-2 max-md:px-4 max-md:py-3" aria-label="Primary">
+      <ul class="m-0 flex list-none flex-col items-stretch gap-0.5 p-0 md:flex-row md:items-center">
+        {% for item in nav %}
+        <li class="group/sub relative{% if item.children %} has-sub{% endif %}">
+          {% if item.children %}
+          <button class="nav-parent block cursor-pointer border-0 bg-transparent px-2.5 py-2 font-sans text-[0.92rem] font-semibold text-[#e8eef4] hover:text-white" type="button" aria-expanded="false">
+            {{ item.label }}
+          </button>
+          <ul class="sub-nav hidden min-w-0 list-none bg-navy-2 p-1.5 shadow-lg group-[.is-open]/sub:block md:absolute md:top-full md:left-0 md:min-w-[16.5rem] md:p-1.5 md:group-hover/sub:block md:group-focus-within/sub:block">
+            <li><a class="block px-3.5 py-1.5 text-[0.9rem] text-[#dce6ef] no-underline hover:bg-white/5 hover:text-white" href="{{ item.url }}">{{ item.label }} overview</a></li>
+            {% for child in item.children %}
+            <li><a class="block px-3.5 py-1.5 text-[0.9rem] text-[#dce6ef] no-underline hover:bg-white/5 hover:text-white" href="{{ child.url }}">{{ child.label }}</a></li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <a class="block px-2.5 py-2 text-[0.92rem] font-semibold text-[#e8eef4] no-underline hover:text-white" href="{{ item.url }}">{{ item.label }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
