@@ -8,7 +8,7 @@ layout: layouts/base.njk
       <h1 class="mt-1 mb-0 font-serif text-[clamp(1.8rem,3vw,2.5rem)]">{{ title }}</h1>
     </div>
   </header>
-  <div class="prose mx-auto w-[min(48rem,calc(100%-2rem))] py-8 pb-14 prose-headings:font-serif prose-headings:text-navy prose-a:text-brand-deep hover:prose-a:text-brand prose-img:my-0">
+  <div class="prose mx-auto w-[min({% if wide %}1120px{% else %}48rem{% endif %},calc(100%-2rem))]{% if wide %} max-w-none{% endif %} py-8 pb-14 prose-headings:font-serif prose-headings:text-navy prose-a:text-brand-deep hover:prose-a:text-brand prose-img:my-0">
     {{ content | safe }}
     {% if youtube %}
       {% youtube youtube %}
