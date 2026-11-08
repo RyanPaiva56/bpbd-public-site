@@ -1,9 +1,9 @@
 ---
-title: House Plans
+title: Custom House Plans in DeLand, FL
 layout: layouts/page.njk
 permalink: /house-plans/
 youtube: s76cAL-kz_g
-description: Hundreds of house plans, custom designed for you. Call Blueprints By Design in DeLand.
+description: Hundreds of house plans, custom designed for you. Blueprints By Design, residential designer in DeLand, FL.
 ---
 
 - We have hundreds of house plans.

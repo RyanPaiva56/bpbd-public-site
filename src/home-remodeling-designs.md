@@ -1,11 +1,11 @@
 ---
-title: Home Remodeling Plans DeLand
+title: Home Remodeling Plans in DeLand, FL
 layout: layouts/page.njk
 permalink: /home-remodeling-designs/
 youtubes:
   - mRSYPnZ6Lc8
   - FyUGu2DcNXA
-description: Affordable remodeling plans — garage conversions, porch enclosures, kitchens, and baths in DeLand.
+description: "Affordable remodeling plans: garage conversions, porch enclosures, kitchens, and baths in DeLand and Volusia County."
 ---
 
 - As we describe in on our additions webpage: additions can be very affordable, remodeling is even more so.

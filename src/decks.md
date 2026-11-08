@@ -1,9 +1,9 @@
 ---
-title: Deck Plans DeLand
+title: Deck Plans in DeLand, FL
 layout: layouts/page.njk
 permalink: /decks/
 youtube: Zn0PTiaFnnc
-description: Custom deck plans for outdoor living, sloped lots, and composite no-maintenance decks in DeLand.
+description: Custom deck plans for outdoor living, sloped lots, and composite decks in DeLand and Volusia County.
 ---
 
 Decks are a great way to enjoy outdoor living.

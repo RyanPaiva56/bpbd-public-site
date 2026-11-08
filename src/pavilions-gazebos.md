@@ -1,9 +1,9 @@
 ---
-title: Pavilion plans Gazebo plans DeLand
+title: "Pavilion & Gazebo Plans in DeLand, FL"
 layout: layouts/page.njk
 permalink: /pavilions-gazebos/
 youtube: Qvz4cuQpfMo
-description: Custom pavilion and gazebo plans for pool, garden, and waterfront outdoor living in DeLand.
+description: Custom pavilion and gazebo plans for pool, garden, and waterfront outdoor living in DeLand and Volusia County.
 ---
 
 - What a great way to enjoy the outdoors with indoor comforts.

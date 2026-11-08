@@ -1,8 +1,8 @@
 ---
-title: Blueprint Copy Service in DeLand
+title: Blueprint Copy Service in DeLand, FL
 layout: layouts/page.njk
 permalink: /copy-service/
-description: Wide-format blueprint copies, enlargements, reductions, and scan-to-file in DeLand.
+description: Wide-format blueprint copies, enlargements, reductions, and scan-to-file in DeLand, FL. One-hour service on most orders.
 ---
 
 Our copy services includes:

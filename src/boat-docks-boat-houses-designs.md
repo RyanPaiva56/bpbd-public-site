@@ -1,9 +1,9 @@
 ---
-title: Boat Dock Plans Boat House Plans Deland
+title: "Boat Dock & Boat House Plans in DeLand, FL"
 layout: layouts/page.njk
 permalink: /boat-docks-boat-houses-designs/
 youtube: WNNz1vAHeEE
-description: Custom boat dock and boat house plans designed for waterfront living in DeLand and Central Florida.
+description: Custom boat dock and boat house plans for waterfront property in DeLand, Volusia County, and Central Florida.
 ---
 
 - Water front property is valuable property.

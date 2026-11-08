@@ -1,9 +1,9 @@
 ---
-title: Barn Plans DeLand
+title: Barn Plans in DeLand, FL
 layout: layouts/page.njk
 permalink: /barns/
 youtube: OCPn4N6G2A0
-description: Pole barns and enclosed barn plans for storage and property protection in DeLand.
+description: Pole barn and enclosed barn plans for storage and property protection in DeLand and Volusia County.
 ---
 
 - Barns are another inexpensive way to store and protect your property.

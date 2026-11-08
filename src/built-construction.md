@@ -1,9 +1,9 @@
 ---
-title: As-Built Construction Deland
+title: As-Built Drawings in DeLand, FL
 layout: layouts/page.njk
 permalink: /built-construction/
 youtube: inZDN2mtlx4
-description: As-built construction drawings for existing homes in DeLand when work was done without a building permit.
+description: As-built drawings for existing homes in DeLand and Volusia County when work was done without a building permit.
 ---
 
 As-Built construction is anything that has been built or remodeled to an existing home without a building permit.

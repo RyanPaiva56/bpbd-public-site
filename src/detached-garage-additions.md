@@ -1,9 +1,9 @@
 ---
-title: Garage Addition DeLand
+title: Garage Addition Plans in DeLand, FL
 layout: layouts/page.njk
 permalink: /detached-garage-additions/
 youtube: 7ObpPfyg6Uc
-description: Detached garage addition plans for storage, workshops, and future living space in DeLand.
+description: Detached garage addition plans for storage, workshops, and future in-law suites in DeLand and Volusia County.
 ---
 
 Detached garages allow for a structure to be away from the main house.

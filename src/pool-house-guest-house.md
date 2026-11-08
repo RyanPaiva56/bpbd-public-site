@@ -1,9 +1,9 @@
 ---
-title: Pool House Plans Guest House Plans DeLand
+title: "Pool House & Guest House Plans in DeLand, FL"
 layout: layouts/page.njk
 permalink: /pool-house-guest-house/
 youtube: FIyrGwmSbvM
-description: Pool house and guest house plans for privacy, family, and in-law living in DeLand.
+description: Pool house and guest house plans for privacy, family, and in-law living in DeLand and Volusia County.
 ---
 
 - Pool houses and guesthouse allow the pool area access to a detached building.

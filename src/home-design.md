@@ -1,8 +1,8 @@
 ---
-title: Home Design Services
+title: Home Design Services in DeLand, FL
 layout: layouts/page.njk
 permalink: /home-design/
-description: Construction drawings for houses, additions, remodels, docks, decks, and more. Proven residential design in DeLand and Central Florida.
+description: Construction drawings for houses, additions, remodels, docks, decks, and more. Home design services in DeLand and Volusia County.
 ---
 
 Our service provides construction drawings for anything residential:

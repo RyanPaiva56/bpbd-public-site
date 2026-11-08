@@ -1,9 +1,9 @@
 ---
-title: Home Addition DeLand
+title: Home Addition Plans in DeLand, FL
 layout: layouts/page.njk
 permalink: /home-addition-designs/
 youtube: IJ_Rw922bD0
-description: Custom home addition plans that add value without buying a new house. DeLand and Central Florida.
+description: Custom home addition plans that add value without buying a new house. DeLand and Volusia County.
 ---
 
 - Home additions are the most affordable way to customize your existing home.

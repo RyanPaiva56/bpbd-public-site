@@ -1,8 +1,8 @@
 ---
-title: Drafting Services in DeLand
+title: Drafting Services in DeLand, FL
 layout: layouts/page.njk
 permalink: /home-design/drafting-services-in-deland/
-description: CAD drafting and residential design in DeLand from a retired Florida licensed residential contractor.
+description: CAD drafting and residential design in DeLand, FL from a retired Florida licensed residential contractor.
 ---
 
 Our design services incorporate drafting skills, but with the advancement of residential design services, it is no longer considered just drafting.
