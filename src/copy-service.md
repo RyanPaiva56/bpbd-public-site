@@ -1,5 +1,5 @@
 ---
-title: Blueprints By Design Repro llc
+title: Blueprint Copy Service in DeLand
 layout: layouts/page.njk
 permalink: /copy-service/
 description: Wide-format blueprint copies, enlargements, reductions, and scan-to-file in DeLand.
