@@ -34,6 +34,31 @@
   }
 }
 
+@media (max-width: 47.99rem) {
+  html:not(.js) .nav-toggle {
+    display: none;
+  }
+
+  html:not(.js) body > header {
+    position: static;
+  }
+
+  html:not(.js) body > header > div {
+    flex-wrap: wrap;
+  }
+
+  html:not(.js) #site-nav {
+    display: block;
+    flex-basis: 100%;
+    position: static;
+    max-height: none;
+  }
+
+  html:not(.js) .sub-nav {
+    display: block;
+  }
+}
+
 @layer components {
   .btn {
     @apply inline-block rounded-sm bg-brand px-5 py-3 font-bold text-white no-underline hover:bg-brand-deep hover:text-white;

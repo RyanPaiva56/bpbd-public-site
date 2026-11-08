@@ -76,7 +76,17 @@
   });
 
   document.addEventListener("keydown", function (event) {
-    if (event.key !== "Escape" || desktop() || nav.classList.contains("hidden")) return;
+    if (event.key !== "Escape") return;
+    var open = items.filter(function (item) {
+      return item.classList.contains("is-open");
+    });
+    if (open.length) {
+      open.forEach(function (item) {
+        setOpen(item, false);
+      });
+      return;
+    }
+    if (desktop() || nav.classList.contains("hidden")) return;
     setMenuOpen(false);
     toggle.focus();
   });
