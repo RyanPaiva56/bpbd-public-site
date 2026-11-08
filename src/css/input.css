@@ -17,6 +17,17 @@
   --color-gold: #946b27;
 }
 
+@layer base {
+  :focus-visible {
+    outline: 3px solid var(--color-brand-deep);
+    outline-offset: 2px;
+  }
+
+  :is(.bg-navy, .bg-navy-2, dialog) :focus-visible {
+    outline-color: #fff;
+  }
+}
+
 @media (min-width: 48rem) {
   html:not(.js) .has-sub:is(:hover, :focus-within) > .sub-nav {
     display: block;

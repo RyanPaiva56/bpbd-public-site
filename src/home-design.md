@@ -20,9 +20,9 @@ Our service provides construction drawings for anything residential:
 
 ## Our Experience
 
-49 years Licensed Contractor
-+ 50 years Construction and Design Experience
-+ 70 years Central Florida Resident
+49 years Licensed Contractor\
+\+ 50 years Construction and Design Experience\
+\+ 70 years Central Florida Resident\
 = Proven Design Service
 
 Being in construction and design for as long as I have, I know if a plan is practical and functional. I can instantly see if a room size is not proportioned correctly, if the overall flow of the plan is incorrect in any way, and if kitchens and bathrooms are workable.

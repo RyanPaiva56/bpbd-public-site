@@ -15,6 +15,7 @@
 
   var img = dialog.querySelector("[data-project-image]");
   var status = dialog.querySelector("[data-project-status]");
+  var label = dialog.querySelector("[data-project-label]");
   var index = 0;
   var opener = null;
 
@@ -23,6 +24,7 @@
     var item = items[index];
     img.src = item.src;
     img.alt = item.alt;
+    label.textContent = item.alt + ", ";
     status.textContent = index + 1 + " of " + items.length;
   }
 
