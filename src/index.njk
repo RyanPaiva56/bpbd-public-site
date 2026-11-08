@@ -26,7 +26,7 @@ permalink: /
       <p class="mt-4 text-muted">See all design services under “Home Design Services” in our top navigation.</p>
     </div>
     <div>
-      {% youtube "GcK3D5y_FRA" %}
+      {% youtube "GcK3D5y_FRA", "Blueprints By Design introduction" %}
     </div>
   </div>
 </section>
@@ -49,7 +49,7 @@ permalink: /
       <figure class="relative m-0 min-w-0 flex-1 bg-navy">
         <button type="button" class="absolute top-2 right-2 z-10 grid h-10 w-10 cursor-pointer place-items-center rounded-full border-0 bg-navy/80 text-2xl leading-none text-white hover:bg-black" data-project-close aria-label="Close">×</button>
         <img class="mx-auto block max-h-[78dvh] w-full object-contain" data-project-image src="" alt="" width="1536" height="1024">
-        <figcaption class="px-3 py-2 text-right text-sm text-white/80" data-project-status></figcaption>
+        <figcaption class="px-3 py-2 text-right text-sm text-white/80" data-project-status aria-live="polite"></figcaption>
       </figure>
       <button type="button" class="grid h-11 w-11 shrink-0 cursor-pointer place-items-center rounded-full border-0 bg-white/20 text-2xl text-white hover:bg-white/35" data-project-next aria-label="Next project">›</button>
     </div>
@@ -58,17 +58,17 @@ permalink: /
 <script src="/assets/js/projects.js"></script>
 
 <section class="mx-auto grid w-[min(1120px,calc(100%-2rem))] grid-cols-1 gap-5 py-10 pb-14 md:grid-cols-3">
-  <a class="block bg-white p-5 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)] text-inherit no-underline hover:outline hover:outline-2 hover:outline-brand" href="/reviews/">
-    <h2 class="mb-2.5 font-serif text-[1.35rem] text-navy">Reviews</h2>
+  <div class="relative bg-white p-5 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)] hover:outline hover:outline-2 hover:outline-brand has-focus-visible:outline has-focus-visible:outline-2 has-focus-visible:outline-brand">
+    <h2 class="mb-2.5 font-serif text-[1.35rem] text-navy"><a class="text-inherit no-underline after:absolute after:inset-0 after:content-[''] focus-visible:outline-none" href="/reviews/">Reviews</a></h2>
     <img class="mb-3 block w-32" src="/assets/images/five-stars.png" alt="Five stars" width="160" height="37">
     <p class="m-0 text-muted">Learn more about what our customers have to say about our quality and commitment to providing the best in residential design.</p>
-  </a>
-  <a class="block bg-white p-5 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)] text-inherit no-underline hover:outline hover:outline-2 hover:outline-brand" href="/ralph-paiva/">
-    <h2 class="mb-2.5 font-serif text-[1.35rem] text-navy">Ralph Paiva</h2>
-    <p class="m-0 text-muted">Learn more the founder and owner, Ralph Paiva, and his experience, ethics, and family values that reflect his proven design service.</p>
-  </a>
-  <a class="block bg-white p-5 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)] text-inherit no-underline hover:outline hover:outline-2 hover:outline-brand" href="/contact/">
-    <h2 class="mb-2.5 font-serif text-[1.35rem] text-navy">Location</h2>
+  </div>
+  <div class="relative bg-white p-5 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)] hover:outline hover:outline-2 hover:outline-brand has-focus-visible:outline has-focus-visible:outline-2 has-focus-visible:outline-brand">
+    <h2 class="mb-2.5 font-serif text-[1.35rem] text-navy"><a class="text-inherit no-underline after:absolute after:inset-0 after:content-[''] focus-visible:outline-none" href="/ralph-paiva/">Ralph Paiva</a></h2>
+    <p class="m-0 text-muted">Learn more about the founder and owner, Ralph Paiva, and his experience, ethics, and family values that reflect his proven design service.</p>
+  </div>
+  <div class="relative bg-white p-5 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)] hover:outline hover:outline-2 hover:outline-brand has-focus-visible:outline has-focus-visible:outline-2 has-focus-visible:outline-brand">
+    <h2 class="mb-2.5 font-serif text-[1.35rem] text-navy"><a class="text-inherit no-underline after:absolute after:inset-0 after:content-[''] focus-visible:outline-none" href="/contact/">Location</a></h2>
     <p class="m-0 text-muted">Blueprints By Design LLC<br>
     140 N. Spring Garden Ave. (15A)<br>
     DeLand, FL 32720<br>
@@ -76,5 +76,5 @@ permalink: /
     Monday – Friday<br>
     8:00 AM to 5:00 PM<br>
     We work from two locations, so please call to schedule an appointment.</p>
-  </a>
+  </div>
 </section>

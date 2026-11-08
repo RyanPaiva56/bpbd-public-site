@@ -8,13 +8,19 @@
   --font-serif: "Source Serif 4", ui-serif, Georgia, serif;
   --color-navy: #0b1c2e;
   --color-navy-2: #12263d;
-  --color-brand: #1a8fc4;
-  --color-brand-deep: #1478a6;
+  --color-brand: #126c99;
+  --color-brand-deep: #0e5a80;
   --color-ink: #243040;
   --color-muted: #5b6775;
   --color-paper: #f4f1ea;
   --color-line: #d7d2c8;
-  --color-gold: #b8893a;
+  --color-gold: #946b27;
+}
+
+@media (min-width: 48rem) {
+  html:not(.js) .has-sub:is(:hover, :focus-within) > .sub-nav {
+    display: block;
+  }
 }
 
 @layer components {

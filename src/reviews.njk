@@ -9,21 +9,25 @@ description: Client reviews and recommendations for Blueprints By Design in DeLa
 
 <p>We have the formula for having satisfied clients; it’s so simple, yet so true: Professionally, give the client what they want. There is almost 100% guarantee of satisfaction. You can see the signed original recommendation documents from all of our clients in our office.</p>
 
-<p class="not-prose"><a class="btn" href="/assets/pdf/reviews.pdf">Reviews and Recommendations [PDF]</a></p>
+<p class="not-prose"><a class="btn" href="/assets/pdf/reviews.pdf">Scanned original survey forms (PDF, 20 pages)</a></p>
+
+<p>The PDF contains scanned images of handwritten survey forms and a thank-you card from 2013 and 2014. Their text is included in the reviews listed below.</p>
 
 <p>Here are some of the reviews and comments of our clients. We again thank them.</p>
 
 <p>If you’d like to view more reviews, please check out our <a href="{{ site.googleReviews }}" rel="noopener noreferrer">Google Reviews</a> page.</p>
 
-<div class="not-prose grid gap-4">
+<ul class="not-prose m-0 grid list-none gap-4 p-0">
 {% for review in reviews %}
-  <blockquote class="bg-white p-4 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)]">
-    <div class="flex justify-between gap-4 text-[0.92rem] text-muted">
-      <span class="font-bold text-gold">{{ review.score }}/10</span>
-      <span>{{ review.name }} ({{ review.date }})</span>
-    </div>
-    <p class="mt-2 mb-0">Would you recommend us? “{{ review.recommend }}”</p>
-    {% if review.quote %}<q class="mt-1.5 block">{{ review.quote }}</q>{% endif %}
-  </blockquote>
+  <li>
+    <figure class="m-0 bg-white p-4 shadow-[0_12px_32px_rgb(11_28_46_/_0.08)]">
+      <figcaption class="flex justify-between gap-4 text-[0.92rem] text-muted">
+        <span class="font-bold text-gold">Rating: {{ review.score }}/10</span>
+        <span>{{ review.name }} ({{ review.date }})</span>
+      </figcaption>
+      <p class="mt-2 mb-0">Would you recommend us? “{{ review.recommend }}”</p>
+      {% if review.quote %}<blockquote class="m-0 mt-1.5"><p class="m-0">“{{ review.quote }}”</p></blockquote>{% endif %}
+    </figure>
+  </li>
 {% endfor %}
-</div>
+</ul>

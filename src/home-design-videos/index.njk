@@ -28,7 +28,7 @@ videos:
 {% for video in videos %}
   <section>
     <h2 class="mb-1.5 font-serif text-xl text-navy">{{ video.title }}</h2>
-    {% youtube video.id %}
+    {% youtube video.id, video.title %}
   </section>
 {% endfor %}
 </div>

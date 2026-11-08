@@ -1,26 +1,29 @@
 <footer class="bg-navy px-0 pt-10 pb-6 text-[#c9d4de]">
   <div class="mx-auto grid w-[min(1120px,calc(100%-2rem))] grid-cols-1 gap-6 md:grid-cols-3">
     <div>
-      <p class="mb-1.5 font-bold text-white">{{ site.legalName }}</p>
+      <h2 class="mb-1.5 font-sans text-base font-bold text-white">{{ site.legalName }}</h2>
       <p class="m-0 mb-1.5">{{ site.street }}<br>{{ site.city }}</p>
-      <p class="m-0 mb-1.5"><a class="text-[#d7e8f5]" href="{{ site.phoneHref }}">{{ site.phone }}</a><br>
-      <a class="text-[#d7e8f5]" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p class="m-0 mb-1.5"><a class="text-[#d7e8f5] underline" href="{{ site.phoneHref }}">{{ site.phone }}</a><br>
+      <a class="text-[#d7e8f5] underline" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     </div>
     <div>
-      <p class="mb-1.5 font-bold text-white">Hours</p>
+      <h2 class="mb-1.5 font-sans text-base font-bold text-white">Hours</h2>
       {% for line in site.hoursLines %}
       <p class="m-0 mb-1.5">{{ line }}</p>
       {% endfor %}
     </div>
-    <div>
-      <p class="mb-1.5 font-bold text-white">Design services</p>
-      <p class="m-0 mb-1.5"><a class="text-[#d7e8f5]" href="/home-design/">Home Design Services</a><br>
-      <a class="text-[#d7e8f5]" href="/house-plans/">House Plans</a><br>
-      <a class="text-[#d7e8f5]" href="/copy-service/">Blueprint Copy Service</a><br>
-      <a class="text-[#d7e8f5]" href="/contact/">Request a free quote</a></p>
-    </div>
+    <nav aria-labelledby="footer-services-heading">
+      <h2 id="footer-services-heading" class="mb-1.5 font-sans text-base font-bold text-white">Design services</h2>
+      <ul class="m-0 list-none p-0">
+        <li><a class="text-[#d7e8f5] underline" href="/home-design/">Home Design Services</a></li>
+        <li><a class="text-[#d7e8f5] underline" href="/house-plans/">House Plans</a></li>
+        <li><a class="text-[#d7e8f5] underline" href="/copy-service/">Blueprint Copy Service</a></li>
+        <li><a class="text-[#d7e8f5] underline" href="/contact/">Request a free quote</a></li>
+      </ul>
+    </nav>
   </div>
-  <div class="mx-auto mt-6 w-[min(1120px,calc(100%-2rem))] border-t border-white/10 pt-4 text-[0.9rem]">
+  <div class="mx-auto mt-6 flex w-[min(1120px,calc(100%-2rem))] flex-wrap justify-between gap-2 border-t border-white/10 pt-4 text-[0.9rem]">
     <p class="m-0">&copy; 2026 {{ site.name }}</p>
+    <p class="m-0"><a class="text-[#d7e8f5] underline" href="/accessibility/">Accessibility</a></p>
   </div>
 </footer>

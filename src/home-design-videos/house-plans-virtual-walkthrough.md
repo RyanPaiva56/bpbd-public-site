@@ -16,12 +16,12 @@ The Villa Virtual Walkthrough was created for a client of their home, made using
 
 Hope you enjoy your stroll through “The Villa”!
 
-{% youtube "X1XrE-UIgeA" %}
+{% youtube "X1XrE-UIgeA", "The Villa virtual walkthrough" %}
 
 Hope you enjoy your stroll through “The Cottage Home 2” !
 
-{% youtube "RehOBuRB_xA" %}
+{% youtube "RehOBuRB_xA", "The Cottage Home 2 virtual walkthrough" %}
 
 Hope you enjoy your stroll through “The Cottage Home 3” !
 
-{% youtube "7tIs8QPkJ1s" %}
+{% youtube "7tIs8QPkJ1s", "The Cottage Home 3 virtual walkthrough" %}

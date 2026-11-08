@@ -12,10 +12,10 @@
         {% for item in nav %}
         <li class="group/sub relative{% if item.children %} has-sub{% endif %}">
           {% if item.children %}
-          <button class="nav-parent block cursor-pointer border-0 bg-transparent px-2.5 py-2 font-sans text-[0.92rem] font-semibold text-[#e8eef4] hover:text-white" type="button" aria-expanded="false">
-            {{ item.label }}
+          <button class="nav-parent block cursor-pointer border-0 bg-transparent px-2.5 py-2 font-sans text-[0.92rem] font-semibold text-[#e8eef4] hover:text-white" type="button" aria-expanded="false" aria-controls="sub-nav-{{ loop.index }}">
+            {{ item.label }}<span aria-hidden="true" class="ml-1 inline-block text-[0.7em]">▾</span>
           </button>
-          <ul class="sub-nav hidden min-w-0 list-none bg-navy-2 p-1.5 shadow-lg group-[.is-open]/sub:block md:absolute md:top-full md:left-0 md:min-w-[16.5rem] md:p-1.5 md:group-hover/sub:block md:group-focus-within/sub:block">
+          <ul id="sub-nav-{{ loop.index }}" class="sub-nav hidden min-w-0 list-none bg-navy-2 p-1.5 shadow-lg group-[.is-open]/sub:block md:absolute md:top-full md:left-0 md:min-w-[16.5rem] md:p-1.5">
             <li><a class="block px-3.5 py-1.5 text-[0.9rem] text-[#dce6ef] no-underline hover:bg-white/5 hover:text-white" href="{{ item.url }}">{{ item.label }} overview</a></li>
             {% for child in item.children %}
             <li><a class="block px-3.5 py-1.5 text-[0.9rem] text-[#dce6ef] no-underline hover:bg-white/5 hover:text-white" href="{{ child.url }}">{{ child.label }}</a></li>
