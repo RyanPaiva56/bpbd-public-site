@@ -12,6 +12,54 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.ogImage }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if title %}{{ title }} | {% endif %}{{ site.name }}">
+  <meta name="twitter:description" content="{{ description or site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.ogImage }}">
+  {%- set areas = [] %}
+  {%- for a in site.areaServed %}{% set areas = (areas.push({ "@type": "AdministrativeArea", "name": a }), areas) %}{% endfor %}
+  {%- set business = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": site.url + "/#business",
+    "name": site.legalName,
+    "alternateName": site.name,
+    "url": site.url,
+    "image": site.url + site.ogImage,
+    "logo": site.url + "/assets/images/logo.png",
+    "description": site.description,
+    "telephone": site.phone,
+    "email": site.email,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": site.street,
+      "addressLocality": "DeLand",
+      "addressRegion": "FL",
+      "postalCode": "32720",
+      "addressCountry": "US"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": site.geo.lat, "longitude": site.geo.lng },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    }],
+    "areaServed": areas
+  } %}
+  <script type="application/ld+json">{{ business | dump | safe }}</script>
+  {%- if page.url != "/" and title %}
+  {%- set crumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": site.url + "/" },
+      { "@type": "ListItem", "position": 2, "name": title, "item": site.url + page.url }
+    ]
+  } %}
+  <script type="application/ld+json">{{ crumbs | dump | safe }}</script>
+  {%- endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
