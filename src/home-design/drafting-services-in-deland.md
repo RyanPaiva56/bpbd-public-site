@@ -20,3 +20,5 @@ Blueprints By Design still has our original drafting table and drafting equipmen
 Some CAD software can be average to below average in quality, and then there is the highest quality CAD software that Blueprints By Design uses, and we pay for that quality.
 
 All of our years of developing our drafting skills has paid off in using today’s CAD software. Today we can use more of our design time in the creativity of the designing your home!
+
+Whether you are in DeLand or elsewhere in West Volusia, we are here to help.

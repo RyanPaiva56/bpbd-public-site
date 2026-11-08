@@ -8,6 +8,6 @@ description: Custom boat dock and boat house plans for waterfront property in De
 
 - Water front property is valuable property.
 - We Take advantage of that waterfront by designing with maximize views and outdoor living.
-- We design water access with Boat Docks and Boat Houses.
+- We design water access with Boat Docks and Boat Houses for the St. Johns River, Volusia County lakes, and canals.
 - Fishing off the dock, or watching the sunrise or sunset is money well spent.
 - We have several Boat Docks and Boat Houses Designs.

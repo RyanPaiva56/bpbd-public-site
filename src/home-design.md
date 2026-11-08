@@ -5,7 +5,7 @@ permalink: /home-design/
 description: Construction drawings for houses, additions, remodels, docks, decks, and more. Home design services in DeLand and Volusia County.
 ---
 
-Our service provides construction drawings for anything residential:
+Our service provides permit-ready construction drawings that meet the Florida Building Code for anything residential in DeLand and Volusia County:
 
 1. House Plans
 2. Additions
@@ -13,10 +13,11 @@ Our service provides construction drawings for anything residential:
 4. Boat Houses and Docks
 5. Second-Story Additions
 6. Kitchen and Bath Remodels
-7. In-law Additions
+7. In-law Suites and ADUs (Accessory Dwelling Units)
 8. As-Built Construction
 9. Decks
 10. Detached Garages or Additions
+11. Garage, Carport, and Porch Conversions
 
 ## Our Experience
 
