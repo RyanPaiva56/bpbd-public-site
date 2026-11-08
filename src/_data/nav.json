@@ -28,6 +28,5 @@
   },
   { "label": "Blueprint Copy Service", "url": "/copy-service/" },
   { "label": "Reviews and Recommendations", "url": "/reviews/" },
-  { "label": "Service Areas", "url": "/service-areas/" },
   { "label": "Contact Us", "url": "/contact/" }
 ]
